@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'th3gentlemanMubinGirachAzureDevops-1331.default'
+    environment: 'default'
     strategy:
       runOnce:
         deploy:
